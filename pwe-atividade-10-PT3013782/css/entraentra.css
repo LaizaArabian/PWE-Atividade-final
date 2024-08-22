@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Outfit', sans-serif;
+}
+
+.imgs img {
+  text-align: left;
+  width: 4%;
+  height: 4%;
+}
+
+.ifsp {
+  width: 60%;
+  height: 60%;
+}
+
+.login__box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+/*
+.labels__user{
+  margin-right: 115px;
+}
+
+.labels__password {
+  margin-right: 120px;;
+} 
+*/
+
+input[type="text"], input[type="password"] {
+  border: 2px solid rgb(128, 128, 128, 0.2);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+input[type="submit"], input[type="reset"] {
+  border-style: none;
+  color: white;
+  background-color: green;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 8px;
+  transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #02c002;
+  transition: 0.2s;
+}
+
+a:hover {
+  color:#0808c9;  
+  transition: 0.2s;
+}
